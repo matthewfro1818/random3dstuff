@@ -29,7 +29,6 @@ class WebmHandler
 	public function makePlayer():Void
 	{
 		io = new WebmIoFile(vidPath);
-		webm = new WebmPlayer();
 		webm.addEventListener(WebmEvent.PLAY, function(e) {
 			onPlay();
 		});
