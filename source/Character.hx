@@ -103,19 +103,6 @@ class Character extends FlxSprite
 				noLoopList = ["idle"];
 				Main.modelView.light.ambient = 1;
 				Main.modelView.light.specular = 0.0;
-				Main.modelView.light.diffuse = 0.0;case 'jolteon':
-				modelName = "jolteon";
-				modelScale = 30;
-				modelSpeed = ["default" => 126 / 75];
-				isModel = true;
-				loadGraphicFromSprite(Main.modelView.sprite);
-				initYaw = -45;
-				initY = -28;
-				updateHitbox();
-				noLoopList = ["idle"];
-				Main.modelView.light.ambient = 1;
-				Main.modelView.light.specular = 0.0;
-				Main.modelView.light.diffuse = 0.0;
 			case 'vaporeon':
 				modelName = "vaporeon";
 				modelScale = 30;
@@ -142,7 +129,7 @@ class Character extends FlxSprite
 				Main.modelView.light.ambient = 1;
 				Main.modelView.light.specular = 0.0;
 				Main.modelView.light.diffuse = 0.0;
-                        case 'espeon':
+             case 'espeon':
 				modelName = "espeon";
 				modelScale = 30;
 				modelSpeed = ["default" => 126 / 75];
@@ -154,7 +141,7 @@ class Character extends FlxSprite
 				noLoopList = ["idle"];
 				Main.modelView.light.ambient = 1;
 				Main.modelView.light.specular = 0.0;
-				Main.modelView.light.diffuse = 0.0
+				Main.modelView.light.diffuse = 0.0;
 			 case 'umbreon':
 				modelName = "umbreon";
 				modelScale = 30;
@@ -206,8 +193,8 @@ class Character extends FlxSprite
 				noLoopList = ["idle"];
 				Main.modelView.light.ambient = 1;
 				Main.modelView.light.specular = 0.0;
-				Main.modelView.light.diffuse = 	
-			   case 'doll':
+				Main.modelView.light.diffuse = 	0.0;
+			 case 'doll':
 				modelName = "doll";
 				modelScale = 15;
 				modelSpeed = ["default" => 1.66, "idle" => 1];
