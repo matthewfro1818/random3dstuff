@@ -55,6 +55,7 @@ jobs:
           haxelib git polymod https://github.com/larsiusprime/polymod.git
           haxelib git hxcpp-debug-server https://github.com/mrniz/hxcpp-debug-server
           haxelib install extension-webm
+          haxelib install away3d
           haxelib list
         shell: cmd
       - name: Create Version Tag
