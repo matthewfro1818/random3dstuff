@@ -46,7 +46,15 @@ class HealthIcon extends FlxSprite
 			animation.add('crash', [59, 60, 61], 0, false, isPlayer);
 			animation.add('endo', [10, 11, 38], 0, false, isPlayer);
 			animation.add('skeleton', [62, 63, 64], 0, false, isPlayer);
-			
+			animation.add('eevee', [54, 55, 53], 0, false, isPlayer);
+			animation.add('jolteon', [54, 55, 53], 0, false, isPlayer);
+			animation.add('vaporeon', [54, 55, 53], 0, false, isPlayer);
+			animation.add('flareon', [54, 55, 53], 0, false, isPlayer);
+			animation.add('espeon', [54, 55, 53], 0, false, isPlayer);
+			animation.add('umbreon', [54, 55, 53], 0, false, isPlayer);
+			animation.add('leafeon', [54, 55, 53], 0, false, isPlayer);
+			animation.add('glaceon', [54, 55, 53], 0, false, isPlayer);
+			animation.add('sylveon', [54, 55, 53], 0, false, isPlayer);
 		}
 		else{
 			loadGraphic('assets/images/iconGrid.png', true, 150, 150);
@@ -78,6 +86,15 @@ class HealthIcon extends FlxSprite
 			animation.add('crash', [26, 27], 0, false, isPlayer);
 			animation.add('endo', [10, 11], 0, false, isPlayer);
 			animation.add('skeleton', [28, 29], 0, false, isPlayer);
+			animation.add('eevee', [30, 31], 0, false, isPlayer);
+			animation.add('jolteon', [30, 31], 0, false, isPlayer);
+			animation.add('vaporeon', [30, 31], 0, false, isPlayer);
+			animation.add('flareon', [30, 31], 0, false, isPlayer);
+			animation.add('espeon', [30, 31], 0, false, isPlayer);
+			animation.add('umbreon', [30, 31], 0, false, isPlayer);
+			animation.add('leafeon', [30, 31], 0, false, isPlayer);
+			animation.add('glaceon', [30, 31], 0, false, isPlayer);
+			animation.add('sylveon', [30, 31], 0, false, isPlayer);
 		}
 
 		iconSize = width;
