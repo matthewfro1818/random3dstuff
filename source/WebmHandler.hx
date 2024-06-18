@@ -28,7 +28,6 @@ class WebmHandler
 	
 	public function makePlayer():Void
 	{
-		io = new WebmIoFile(vidPath);
 		webm.addEventListener(WebmEvent.PLAY, function(e) {
 			onPlay();
 		});
@@ -48,7 +47,6 @@ class WebmHandler
 	public function updatePlayer():Void
 	{
 		io = new WebmIoFile(vidPath);
-		webm.fuck(io, false);
 	}
 	
 	public function play():Void
