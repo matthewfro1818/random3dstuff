@@ -54,6 +54,7 @@ jobs:
           haxelib git faxe https://github.com/uhrobots/faxe
           haxelib git polymod https://github.com/larsiusprime/polymod.git
           haxelib git hxcpp-debug-server https://github.com/mrniz/hxcpp-debug-server
+          haxelib install extension-webm
           haxelib list
         shell: cmd
       - name: Create Version Tag
