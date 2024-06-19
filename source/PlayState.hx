@@ -831,6 +831,32 @@ class PlayState extends MusicBeatState
 				camPos.set(dad.getGraphicMidpoint().x + 300, dad.getGraphicMidpoint().y);
 			case 'steve':
 				dad.y += 80;
+			case 'eevee':
+				dad.y += 80;
+			case 'jolteon':
+				dad.y += 80;
+			case 'vaporeon':
+				dad.y += 80;
+			case 'flareon':
+				dad.y += 80;
+			case 'espeon':
+				dad.y += 80;
+			case 'umbreon':
+				dad.y += 80;
+			case 'vaporeon':
+				dad.y += 80;
+			case 'flareon':
+				dad.y += 80;
+			case 'espeon':
+				dad.y += 80;
+			case 'umbreon':
+				dad.y += 80;
+			case 'leafeon':
+				dad.y += 80;
+			case 'glaceon':
+				dad.y += 80;
+			case 'sylveon':
+				dad.y += 80;
 			case 'doll':
 				dad.yTween = FlxTween.tween(dad, {'y': dad.y + 100}, 1, {type: PINGPONG});
 			case 'crash':
